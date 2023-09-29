@@ -108,8 +108,8 @@ public class GOOGLPrevClose {
 		Logger l1=Logger.getLogger("GOOGLPrevClose");
 		l1.info("soft assert passed");
 		
-		JavascriptExecutor j1=(JavascriptExecutor)driver1;
-		j1.executeScript("window.scrollBy(0,1000)", "");
+		//JavascriptExecutor j1=(JavascriptExecutor)driver1;
+		//j1.executeScript("window.scrollBy(0,1000)", "");
 		//j1.executeScript("windowscrollTo(0,0)", "");
 		//j1.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		//a.contextClick(search).perform();
